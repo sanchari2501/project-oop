@@ -105,7 +105,7 @@ a {
 /* ====== Hero Section ====== */
 .hero {
   position: relative;
-  height: 85vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -143,7 +143,7 @@ a {
 .panels {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
   margin: 50px auto;
   flex-wrap: wrap;
 }
@@ -155,12 +155,12 @@ a {
   flex: 1;
   min-width: 250px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
 }
 
 .panel:hover {
-  transform: translateY(-5px);
+  transform: translateY(-7px);
 }
 
 .panel i {
