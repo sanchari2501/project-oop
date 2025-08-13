@@ -190,3 +190,54 @@ a {
     font-size: 1.4rem;
   }
 }
+
+/* ====== Extra Responsive for Mobile Phones ====== */
+@media (max-width: 480px) {
+
+  /* Navbar */
+  .nav-container {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .nav-links a {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  /* Hero Section */
+  .hero {
+    height: 60vh;
+    padding: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  /* Panels Section */
+  .panels {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .panel {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .panel i {
+    font-size: 2rem;
+  }
+}
